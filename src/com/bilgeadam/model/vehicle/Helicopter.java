@@ -1,9 +1,11 @@
 package com.bilgeadam.model.vehicle;
 
-public class Helicopter {
+public class Helicopter extends AirVehicle{
 
-	public Helicopter() {
+	
+	public Helicopter(String brand, String engineType) {
+		super(brand, engineType);
+		}
 		
 	}
 
-}
